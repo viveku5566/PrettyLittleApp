@@ -3,8 +3,7 @@ import { View, Text, Button } from 'react-native';
 import { Product } from './types';
 import { useCart } from './CartContext';
 import {connect} from 'react-redux';
-import { addToCart } from './cart';
-'
+
 interface ProductProps {
   product: Product;
 }

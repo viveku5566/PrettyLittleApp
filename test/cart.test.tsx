@@ -2,7 +2,7 @@ import React from 'react';
 import { render, fireEvent } from '@testing-library/react-native';
 import { Provider } from 'react-redux';
 import store from './store'; 
-import { addToCart } from './cart'; 
+
 
 
 import ProductItem from './ProductItem';

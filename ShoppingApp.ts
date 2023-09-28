@@ -26,7 +26,7 @@ const ShoppingApp: React.FC = () => {
             <Image source={{ uri: item.imageUrl }} />
             <Text>{item.name}</Text>
             <Text>${item.price.toFixed(2)}</Text>
-            <Text>{item.description}</Text>
+            <Text>{item.colour}</Text>
           </View>
         )}
       />
